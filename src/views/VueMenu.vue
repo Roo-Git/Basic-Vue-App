@@ -5,17 +5,34 @@
     <button class="button" @click="$router.push('crear-componente')">
       Crear Componente
     </button>
-    <button class="button">Variables</button>
-    <button class="button">Bucle v-for</button>
-    <button class="button">Sentencia v-if, v-else</button>
-    <button class="button">Evento onClick</button>
-    <button class="button">Binding</button>
-    <button class="button">Pasando Props entre Componentes</button>
-    <button class="button">Pasando Funciones por las Props</button>
-    <button class="button">Crear View</button>
-    <button class="button">Crear Ruta Dinámica</button>
-    <button class="button">Cambio de Ruta desde Scripts</button>
-    <button class="button">Crear View Error 404</button>
+    <button class="button" @click="$router.push('variables')">Variables</button>
+    <button class="button" @click="$router.push('bucle-v-for')">
+      Bucle v-for
+    </button>
+    <button class="button" @click="$router.push('sentencia-if-else')">
+      Sentencia v-if, v-else
+    </button>
+    <button class="button" @click="$router.push('evento-onclick')">
+      Evento onClick
+    </button>
+    <button class="button" @click="$router.push('props-a-componentes')">
+      Pasando Props entre Componentes
+    </button>
+    <button class="button" @click="$router.push('funciones-por-props')">
+      Pasando Funciones por las Props
+    </button>
+    <button class="button" @click="$router.push('crear-view')">
+      Crear View
+    </button>
+    <button class="button" @click="$router.push('ruta-dinamica')">
+      Crear Ruta Dinámica
+    </button>
+    <button class="button" @click="$router.push('ruta-scripts')">
+      Cambio de Ruta desde Scripts
+    </button>
+    <button class="button" @click="$router.push('error-404')">
+      Crear View Error 404
+    </button>
   </div>
 </template>
 

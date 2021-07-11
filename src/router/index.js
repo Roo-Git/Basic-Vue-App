@@ -1,12 +1,19 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import VueMenu from '../views/VueMenu.vue';
+import CrearComponente from '../views/CrearComponente.vue';
 
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    name: 'Vue',
+    component: VueMenu,
+  },
+
+  {
+    path: '/crear-componente',
+    name: 'Crear Componente',
+    component: CrearComponente,
   }
 ]
 

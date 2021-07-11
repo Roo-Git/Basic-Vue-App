@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Bucle v-for</h2>
+    <h2>Renderizado en Bucle: Bucle v-for</h2>
     <p>A continuación podemos observar un bucle v-for de botones:</p>
     <button class="button" v-for="(color, index) in colors" :key="index">
       El boton en la posición {{ index }} no es de color {{ color }}.
@@ -27,7 +27,6 @@
 export default {
   setup() {
     const colors = ["Azul", "Rojo", "Amarillo"];
-    console.log(colors);
     return {
       colors,
     };

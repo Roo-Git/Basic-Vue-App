@@ -4,7 +4,10 @@
       Crear Componente
     </h2>
     <PrimerComponente />
-    <p>Creamos un archivo vue.js en la carpeta components.</p>
+    <p>
+      Creamos un archivo vue.js en la carpeta components o en views si es un
+      componente vista.
+    </p>
     <p>
       Añadimos la estructura básica (template, scripts y style) con el comando
       vbase.

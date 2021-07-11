@@ -7,7 +7,7 @@ import SentenciaVifVelse from '../views/SentenciaVIfVelse.vue';
 import EventoOnClick from '../views/EventoOnClick.vue';
 import PropsEntreComponentes from '../views/PropsEntreComponentes.vue';
 import FuncionesPorLasProps from '../views/FuncionesPorLasProps.vue';
-import View from '../views/View.vue';
+import Ruta from '../views/Ruta.vue';
 import RutaDinamica from '../views/RutaDinamica.vue';
 import CambiarRutaScripts from '../views/CambiarRutaScripts.vue';
 import Error404 from '../views/Error404.vue';
@@ -63,9 +63,9 @@ const routes = [
   },
 
   {
-    path: '/crear-view',
-    name: 'Crear View',
-    component: View,
+    path: '/crear-ruta',
+    name: 'Crear Ruta',
+    component: Ruta,
   },
 
   {

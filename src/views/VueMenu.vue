@@ -21,8 +21,8 @@
     <button class="button" @click="$router.push('funciones-por-props')">
       Pasando Funciones por las Props
     </button>
-    <button class="button" @click="$router.push('crear-view')">
-      Crear View
+    <button class="button" @click="$router.push('crear-ruta')">
+      Crear Ruta
     </button>
     <button class="button" @click="$router.push('ruta-dinamica')">
       Crear Ruta Dinámica

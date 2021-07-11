@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h2>Cear View Error 404</h2>
-  </div>
+  <div></div>
 </template>
 
 <script>

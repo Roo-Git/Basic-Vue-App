@@ -15,6 +15,9 @@
     <button class="button" @click="$router.push('evento-onclick')">
       Evento onClick
     </button>
+    <button class="button" @click="$router.push('binding')">
+      Binding
+    </button>
     <button class="button" @click="$router.push('props-a-componentes')">
       Pasando Props entre Componentes
     </button>

@@ -11,6 +11,7 @@ import Ruta from '../views/Ruta.vue';
 import RutaDinamica from '../views/RutaDinamica.vue';
 import CambiarRutaScripts from '../views/CambiarRutaScripts.vue';
 import Error404 from '../views/Error404.vue';
+import Binding from '../views/Binding.vue';
 
 
 const routes = [
@@ -48,6 +49,11 @@ const routes = [
     path: '/evento-onclick',
     name: 'Evento on Click',
     component: EventoOnClick,
+  },
+  {
+    path: '/binding',
+    name: 'Binding',
+    component: Binding,
   },
   
   {
